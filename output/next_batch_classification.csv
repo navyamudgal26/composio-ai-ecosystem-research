@@ -1,0 +1,33 @@
+Application,Feature,Fetch_Status,Automated_Prediction,Matched_Keywords,Interpretation
+Pipedrive,OAuth 2.0,200,Signal Detected,"oauth 2.0, oauth",Keyword found in fetched page
+Pipedrive,API Key / Token,200,Signal Detected,api token,Keyword found in fetched page
+Pipedrive,Access Token,200,Not Detected,,No keyword found; absence not established
+Pipedrive,Refresh Token,200,Not Detected,,No keyword found; absence not established
+Pipedrive,REST API,200,Signal Detected,restful,Keyword found in fetched page
+Pipedrive,GraphQL,200,Not Detected,,No keyword found; absence not established
+Pipedrive,Webhooks,200,Signal Detected,"webhook, webhooks",Keyword found in fetched page
+Pipedrive,MCP,200,Not Detected,,No keyword found; absence not established
+Pipedrive,OAuth 2.0,200,Signal Detected,"oauth 2.0, oauth",Keyword found in fetched page
+Pipedrive,API Key / Token,200,Signal Detected,api token,Keyword found in fetched page
+Pipedrive,Access Token,200,Not Detected,,No keyword found; absence not established
+Pipedrive,Refresh Token,200,Not Detected,,No keyword found; absence not established
+Pipedrive,REST API,200,Not Detected,,No keyword found; absence not established
+Pipedrive,GraphQL,200,Not Detected,,No keyword found; absence not established
+Pipedrive,Webhooks,200,Not Detected,,No keyword found; absence not established
+Pipedrive,MCP,200,Not Detected,,No keyword found; absence not established
+Zoho CRM,OAuth 2.0,200,Not Detected,,No keyword found; absence not established
+Zoho CRM,API Key / Token,200,Not Detected,,No keyword found; absence not established
+Zoho CRM,Access Token,200,Not Detected,,No keyword found; absence not established
+Zoho CRM,Refresh Token,200,Not Detected,,No keyword found; absence not established
+Zoho CRM,REST API,200,Signal Detected,restful,Keyword found in fetched page
+Zoho CRM,GraphQL,200,Not Detected,,No keyword found; absence not established
+Zoho CRM,Webhooks,200,Not Detected,,No keyword found; absence not established
+Zoho CRM,MCP,200,Not Detected,,No keyword found; absence not established
+Zoho CRM,OAuth 2.0,200,Signal Detected,oauth,Keyword found in fetched page
+Zoho CRM,API Key / Token,200,Not Detected,,No keyword found; absence not established
+Zoho CRM,Access Token,200,Signal Detected,access token,Keyword found in fetched page
+Zoho CRM,Refresh Token,200,Signal Detected,refresh token,Keyword found in fetched page
+Zoho CRM,REST API,200,Not Detected,,No keyword found; absence not established
+Zoho CRM,GraphQL,200,Not Detected,,No keyword found; absence not established
+Zoho CRM,Webhooks,200,Not Detected,,No keyword found; absence not established
+Zoho CRM,MCP,200,Not Detected,,No keyword found; absence not established

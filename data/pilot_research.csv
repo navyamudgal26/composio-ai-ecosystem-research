@@ -1,0 +1,3 @@
+Application,Category,Description,Authentication_Methods,Access_Model,API_Type,API_Capabilities,Existing_MCP,Buildability_Verdict,Blockers,Official_Website,API_Documentation_URL,MCP_Evidence_URL,Research_Status,Verification_Status
+Salesforce,CRM & Sales,,,,,,,,,https://www.salesforce.com/,https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html,,Not Started,Not Verified
+HubSpot,CRM & Sales,,,,,,,,,https://www.hubspot.com/,https://developers.hubspot.com/blog/harnessing-the-power-of-hubspots-public-apis-with-postman,,Not Started,Not Verified

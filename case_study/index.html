@@ -1,0 +1,2063 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Composio AI Ecosystem Research</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:1200px;margin:35px auto;padding:0 20px;color:#202938;line-height:1.6}
+h1,h2{color:#172554}
+.cards{display:flex;gap:15px;flex-wrap:wrap;margin:20px 0}
+.card{background:#eef2ff;padding:18px 24px;border-radius:10px;min-width:130px}
+.num{font-size:28px;font-weight:bold}
+.data-table{border-collapse:collapse;width:100%;font-size:13px;margin:15px 0;display:block;overflow-x:auto}
+.data-table th,.data-table td{border:1px solid #ddd;padding:8px;text-align:left;min-width:100px}
+.data-table th{background:#e8edff}
+.note{background:#fff7e6;padding:14px;border-left:4px solid #d99a22}
+footer{margin-top:35px;color:#666;font-size:12px}
+</style>
+</head>
+<body>
+<h1>Composio AI Ecosystem — Application Research</h1>
+<p><b>Research snapshot:</b> 24 November 2026</p>
+<p>This report tracks API documentation, authentication, access models, API capabilities,
+MCP availability, buildability and evidence for a 100-application research dataset.</p>
+
+<div class="cards">
+<div class="card"><div class="num">100</div>Total applications</div>
+<div class="card"><div class="num">3</div>Researched</div>
+<div class="card"><div class="num">26</div>Partially researched</div>
+<div class="card"><div class="num">71</div>Other / pending</div>
+</div>
+
+<div class="note">
+<b>Research limitation:</b> This is a progress snapshot, not a claim that all 100 applications
+have been fully verified. A URL being present or accessible does not prove API availability,
+self-serve access, or vendor-maintained MCP support. Unverified fields remain research gaps.
+</div>
+
+<h2>Category progress</h2>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Research_Status</th>
+      <th>Category</th>
+      <th>Not Started</th>
+      <th>Partially Researched</th>
+      <th>Researched</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <td>AI, Research &amp; Media</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>CRM &amp; Sales</td>
+      <td>1</td>
+      <td>6</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>Communications &amp; Messaging</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>Customer Support</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>Data, SEO &amp; Scraping</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>Developer, Infrastructure &amp; Data</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>E-commerce</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>Finance &amp; Fintech</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>Marketing &amp; Advertising</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>Productivity &amp; Project Management</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Application-level research tracker</h2>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Application</th>
+      <th>Category</th>
+      <th>Description</th>
+      <th>Authentication_Methods</th>
+      <th>Access_Model</th>
+      <th>API_Type</th>
+      <th>API_Capabilities</th>
+      <th>Existing_MCP</th>
+      <th>Buildability_Verdict</th>
+      <th>Blockers</th>
+      <th>Official_Website</th>
+      <th>API_Documentation_URL</th>
+      <th>MCP_Evidence_URL</th>
+      <th>Research_Status</th>
+      <th>Verification_Status</th>
+      <th>Authentication_Evidence_URL</th>
+      <th>MCP_Maintainer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Salesforce</td>
+      <td>CRM &amp; Sales</td>
+      <td></td>
+      <td>OAuth 2.0</td>
+      <td>Needs verification</td>
+      <td>REST API</td>
+      <td>CRM data and records integration; verify specific endpoints and permissions</td>
+      <td>Needs verification</td>
+      <td>Preliminary - likely buildable</td>
+      <td>OAuth setup, app permissions, API access and automated documentation fetch blocked</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Partially verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>HubSpot</td>
+      <td>CRM &amp; Sales</td>
+      <td>CRM platform for managing contacts, companies, deals, sales and marketing activities.</td>
+      <td>OAuth 2.0; Private App Access Tokens</td>
+      <td>Self-serve options; account and permission requirements apply</td>
+      <td>REST API</td>
+      <td>CRM records, contacts, companies, deals, tickets, marketing and CMS APIs</td>
+      <td>Yes - Official HubSpot Remote MCP Server</td>
+      <td>Buildable - API and official MCP available</td>
+      <td>OAuth setup, scopes, account permissions, API limits and sensitive-data restrictions</td>
+      <td>https://www.hubspot.com/</td>
+      <td>https://developers.hubspot.com/docs/api/overview</td>
+      <td>https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server</td>
+      <td>Researched</td>
+      <td>Official documentation reviewed</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Pipedrive</td>
+      <td>CRM &amp; Sales</td>
+      <td></td>
+      <td>API Token; OAuth 2.0</td>
+      <td>Needs verification</td>
+      <td>REST API</td>
+      <td>CRM API endpoints; specific object coverage requires further review</td>
+      <td>Needs verification</td>
+      <td>Preliminary - likely buildable</td>
+      <td>OAuth setup, API token security, permissions, rate limits and MCP verification</td>
+      <td>https://www.pipedrive.com/</td>
+      <td>https://developers.pipedrive.com/docs/api/v1</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official API and authentication pages fetched; access model and MCP need verification</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Zoho CRM</td>
+      <td>CRM &amp; Sales</td>
+      <td></td>
+      <td>OAuth 2.0</td>
+      <td>Needs verification</td>
+      <td>REST API</td>
+      <td>CRM API endpoints; specific modules and operations require further review</td>
+      <td>Needs verification</td>
+      <td>Preliminary - likely buildable</td>
+      <td>OAuth setup, scopes, permissions, API limits and MCP verification</td>
+      <td>https://www.zoho.com/crm/</td>
+      <td>https://www.zoho.com/crm/developer/docs/api/v8/</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official API and authorization pages fetched; access model and MCP need verification</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Close</td>
+      <td>CRM &amp; Sales</td>
+      <td></td>
+      <td>API Key (HTTP Basic Auth); OAuth 2.0</td>
+      <td>Self-serve API keys; OAuth apps private by default; public apps require approval</td>
+      <td>REST API</td>
+      <td>Leads, contacts, opportunities, activities and custom fields</td>
+      <td>Yes - Official Close Remote MCP Server</td>
+      <td>Buildable - REST API and official MCP available</td>
+      <td>OAuth configuration, API credentials, permission scopes, rate limits and public OAuth app approval</td>
+      <td>https://www.close.com/</td>
+      <td>https://developer.close.com/api/overview</td>
+      <td>https://developer.close.com/mcp/</td>
+      <td>Researched</td>
+      <td>Official API, authentication, webhook and MCP documentation reviewed</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Freshsales</td>
+      <td>CRM &amp; Sales</td>
+      <td></td>
+      <td>API Key; OAuth 2.0</td>
+      <td>Needs verification</td>
+      <td>REST API</td>
+      <td>Contacts, accounts, deals, sales activities and CRM records</td>
+      <td>Needs verification</td>
+      <td>Buildable - API documented</td>
+      <td>API credentials, OAuth scopes, user permissions and rate limits</td>
+      <td>https://www.freshworks.com/crm/sales/</td>
+      <td>https://developers.freshworks.com/crm/api/</td>
+      <td></td>
+      <td>Researched</td>
+      <td>Official API and OAuth documentation manually reviewed</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Copper</td>
+      <td>CRM &amp; Sales</td>
+      <td></td>
+      <td>OAuth 2.0</td>
+      <td>Needs verification</td>
+      <td>REST</td>
+      <td>Leads, People, Companies, Opportunities, Projects, Tasks, Activities, Tags and Custom Fields</td>
+      <td>Needs verification - official MCP page found, technical details not confirmed</td>
+      <td>Buildable in principle; OAuth scopes and access need verification</td>
+      <td>Access model, OAuth scopes and MCP server implementation need verification</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official API and OAuth docs reviewed; MCP unverified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Attio</td>
+      <td>CRM &amp; Sales</td>
+      <td></td>
+      <td>API Key</td>
+      <td>Self-serve; available on all plans; admins manage API keys</td>
+      <td>REST (documentation fetch pending)</td>
+      <td>CRM record search, create and update; notes and tasks via MCP</td>
+      <td>Yes - Official Attio MCP</td>
+      <td>Buildable; official MCP available</td>
+      <td>REST API documentation and endpoint breadth need verification</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official API key and MCP pages reviewed; API docs fetch failed</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Insightly</td>
+      <td>CRM &amp; Sales</td>
+      <td></td>
+      <td>Needs verification</td>
+      <td>API available on all plans; credential requirements need verification</td>
+      <td>REST</td>
+      <td>Query and update CRM data; GET, POST, PUT, DELETE; Products, Price Books, Quotes</td>
+      <td>Unverified (official evidence page returned 403)</td>
+      <td>Potentially buildable; authentication verification pending</td>
+      <td>API authentication method and MCP status need verification</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Partial - API and webhook verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Nimble</td>
+      <td>CRM &amp; Sales</td>
+      <td></td>
+      <td>Needs verification</td>
+      <td>Needs verification</td>
+      <td>Needs verification</td>
+      <td>Needs verification</td>
+      <td>Not verified</td>
+      <td>Pending verification</td>
+      <td>API authentication, API coverage and MCP evidence pending</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official source fetch attempted; manual verification pending</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Zendesk</td>
+      <td>Customer Support</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Intercom</td>
+      <td>Customer Support</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Freshdesk</td>
+      <td>Customer Support</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Help Scout</td>
+      <td>Customer Support</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Gorgias</td>
+      <td>Customer Support</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Front</td>
+      <td>Customer Support</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Kustomer</td>
+      <td>Customer Support</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Jira Service Management</td>
+      <td>Customer Support</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ServiceNow</td>
+      <td>Customer Support</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Salesforce Service Cloud</td>
+      <td>Customer Support</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Slack</td>
+      <td>Communications &amp; Messaging</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Microsoft Teams</td>
+      <td>Communications &amp; Messaging</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Discord</td>
+      <td>Communications &amp; Messaging</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Telegram</td>
+      <td>Communications &amp; Messaging</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>WhatsApp Business Cloud</td>
+      <td>Communications &amp; Messaging</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Twilio</td>
+      <td>Communications &amp; Messaging</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Zoom</td>
+      <td>Communications &amp; Messaging</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Google Chat</td>
+      <td>Communications &amp; Messaging</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mattermost</td>
+      <td>Communications &amp; Messaging</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Vonage</td>
+      <td>Communications &amp; Messaging</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mailchimp</td>
+      <td>Marketing &amp; Advertising</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Klaviyo</td>
+      <td>Marketing &amp; Advertising</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SendGrid</td>
+      <td>Marketing &amp; Advertising</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ActiveCampaign</td>
+      <td>Marketing &amp; Advertising</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Brevo</td>
+      <td>Marketing &amp; Advertising</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Customer.io</td>
+      <td>Marketing &amp; Advertising</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Campaign Monitor</td>
+      <td>Marketing &amp; Advertising</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Meta Ads</td>
+      <td>Marketing &amp; Advertising</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Google Ads</td>
+      <td>Marketing &amp; Advertising</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LinkedIn Marketing</td>
+      <td>Marketing &amp; Advertising</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Shopify</td>
+      <td>E-commerce</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>WooCommerce</td>
+      <td>E-commerce</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>BigCommerce</td>
+      <td>E-commerce</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Adobe Commerce</td>
+      <td>E-commerce</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Square</td>
+      <td>E-commerce</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Etsy</td>
+      <td>E-commerce</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>eBay</td>
+      <td>E-commerce</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Amazon Seller Central</td>
+      <td>E-commerce</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wix Stores</td>
+      <td>E-commerce</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>commercetools</td>
+      <td>E-commerce</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semrush</td>
+      <td>Data, SEO &amp; Scraping</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ahrefs</td>
+      <td>Data, SEO &amp; Scraping</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Moz</td>
+      <td>Data, SEO &amp; Scraping</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Similarweb</td>
+      <td>Data, SEO &amp; Scraping</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SerpApi</td>
+      <td>Data, SEO &amp; Scraping</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Apify</td>
+      <td>Data, SEO &amp; Scraping</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Bright Data</td>
+      <td>Data, SEO &amp; Scraping</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ScrapingBee</td>
+      <td>Data, SEO &amp; Scraping</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Firecrawl</td>
+      <td>Data, SEO &amp; Scraping</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>DataForSEO</td>
+      <td>Data, SEO &amp; Scraping</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GitHub</td>
+      <td>Developer, Infrastructure &amp; Data</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GitLab</td>
+      <td>Developer, Infrastructure &amp; Data</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Bitbucket</td>
+      <td>Developer, Infrastructure &amp; Data</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Jira</td>
+      <td>Developer, Infrastructure &amp; Data</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Linear</td>
+      <td>Developer, Infrastructure &amp; Data</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Vercel</td>
+      <td>Developer, Infrastructure &amp; Data</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Netlify</td>
+      <td>Developer, Infrastructure &amp; Data</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AWS</td>
+      <td>Developer, Infrastructure &amp; Data</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Google Cloud</td>
+      <td>Developer, Infrastructure &amp; Data</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Supabase</td>
+      <td>Developer, Infrastructure &amp; Data</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Notion</td>
+      <td>Productivity &amp; Project Management</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Asana</td>
+      <td>Productivity &amp; Project Management</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Trello</td>
+      <td>Productivity &amp; Project Management</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ClickUp</td>
+      <td>Productivity &amp; Project Management</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Monday.com</td>
+      <td>Productivity &amp; Project Management</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Airtable</td>
+      <td>Productivity &amp; Project Management</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Google Drive</td>
+      <td>Productivity &amp; Project Management</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Dropbox</td>
+      <td>Productivity &amp; Project Management</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>OneDrive</td>
+      <td>Productivity &amp; Project Management</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Todoist</td>
+      <td>Productivity &amp; Project Management</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Not Started</td>
+      <td>Not Verified</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>QuickBooks</td>
+      <td>Finance &amp; Fintech</td>
+      <td></td>
+      <td>OAuth 2.0 (verify exact flow and scopes)</td>
+      <td>Partner/plan restrictions may apply; verify</td>
+      <td>REST</td>
+      <td>Accounting, invoices, customers, payments, expenses</td>
+      <td>Needs verification</td>
+      <td>Potentially Buildable</td>
+      <td>OAuth setup, app approval/partner restrictions, API permissions</td>
+      <td></td>
+      <td>https://developer.intuit.com/app/developer/qbo/docs/</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>No verified MCP evidence yet; research pending</td>
+      <td>https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization</td>
+      <td>Unverified</td>
+    </tr>
+    <tr>
+      <td>Xero</td>
+      <td>Finance &amp; Fintech</td>
+      <td></td>
+      <td>OAuth 2.0</td>
+      <td>Developer app; some connection types are paid or region-limited</td>
+      <td>REST</td>
+      <td>Accounting, contacts, invoices, payments, reports</td>
+      <td>Needs verification</td>
+      <td>Potentially Buildable</td>
+      <td>OAuth configuration, scopes, paid Custom Connection eligibility</td>
+      <td></td>
+      <td>https://developer.xero.com/documentation/api/accounting/overview</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>No verified MCP evidence yet; research pending</td>
+      <td>https://developer.xero.com/documentation/guides/oauth2/overview</td>
+      <td>Unverified</td>
+    </tr>
+    <tr>
+      <td>FreshBooks</td>
+      <td>Finance &amp; Fintech</td>
+      <td></td>
+      <td>OAuth 2.0</td>
+      <td>Developer app; account and plan conditions need verification</td>
+      <td>REST/JSON</td>
+      <td>Accounting, clients, invoices, expenses, payments</td>
+      <td>Needs verification</td>
+      <td>Potentially Buildable</td>
+      <td>OAuth setup, account permissions, plan restrictions</td>
+      <td></td>
+      <td>https://www.freshbooks.com/api/start/</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>No verified MCP evidence yet; research pending</td>
+      <td>https://www.freshbooks.com/api/start/</td>
+      <td>Unverified</td>
+    </tr>
+    <tr>
+      <td>Plaid</td>
+      <td>Finance &amp; Fintech</td>
+      <td></td>
+      <td>Client ID and Secret; Item access tokens</td>
+      <td>Dashboard access; product and country availability vary</td>
+      <td>REST/JSON</td>
+      <td>Financial accounts, transactions, balances, identity, payments</td>
+      <td>Needs verification</td>
+      <td>Potentially Buildable</td>
+      <td>Production approval, institution coverage, product access, token handling</td>
+      <td></td>
+      <td>https://plaid.com/docs/api/</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>No verified MCP evidence yet; research pending</td>
+      <td>https://plaid.com/docs/quickstart/</td>
+      <td>Unverified</td>
+    </tr>
+    <tr>
+      <td>Wise</td>
+      <td>Finance &amp; Fintech</td>
+      <td></td>
+      <td>OAuth 2.0; API tokens depending on integration</td>
+      <td>API access and permissions depend on account/use case</td>
+      <td>REST</td>
+      <td>Transfers, balances, recipients, profiles, exchange rates</td>
+      <td>Needs verification</td>
+      <td>Potentially Buildable</td>
+      <td>Token permissions, account eligibility, transfer compliance</td>
+      <td></td>
+      <td>https://docs.wise.com/api-reference</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>No verified MCP evidence yet; research pending</td>
+      <td>https://docs.wise.com/api-reference</td>
+      <td>Unverified</td>
+    </tr>
+    <tr>
+      <td>PayPal</td>
+      <td>Finance &amp; Fintech</td>
+      <td></td>
+      <td>OAuth 2.0</td>
+      <td>Developer account; live use requires eligible Business account</td>
+      <td>REST</td>
+      <td>Orders, payments, refunds, payouts, subscriptions</td>
+      <td>Needs verification</td>
+      <td>Potentially Buildable</td>
+      <td>Business account, live credentials, product permissions, regional limits</td>
+      <td></td>
+      <td>https://developer.paypal.com/api/rest/</td>
+      <td>https://developer.paypal.com/ai-tools/mcp-server</td>
+      <td>Partially Researched</td>
+      <td>Official vendor MCP lead; manual verification pending</td>
+      <td>https://developer.paypal.com/api/rest/authentication</td>
+      <td>Vendor lead identified; unconfirmed</td>
+    </tr>
+    <tr>
+      <td>Razorpay</td>
+      <td>Finance &amp; Fintech</td>
+      <td></td>
+      <td>HTTP Basic Auth using Key ID and Key Secret</td>
+      <td>Merchant account and API keys; activation requirements apply</td>
+      <td>REST</td>
+      <td>Payments, orders, refunds, customers, subscriptions, settlements</td>
+      <td>Needs verification</td>
+      <td>Potentially Buildable</td>
+      <td>Merchant onboarding, live activation, key security, regional availability</td>
+      <td></td>
+      <td>https://razorpay.com/docs/api/</td>
+      <td>https://github.com/razorpay/razorpay-mcp-server</td>
+      <td>Partially Researched</td>
+      <td>Official vendor MCP lead; manual verification pending</td>
+      <td>https://razorpay.com/docs/api/authentication/</td>
+      <td>Vendor lead identified; unconfirmed</td>
+    </tr>
+    <tr>
+      <td>Chargebee</td>
+      <td>Finance &amp; Fintech</td>
+      <td></td>
+      <td>HTTP Basic Auth using API key</td>
+      <td>Chargebee site and API key; plan permissions may apply</td>
+      <td>REST</td>
+      <td>Subscriptions, customers, invoices, payments, plans, webhooks</td>
+      <td>Needs verification</td>
+      <td>Potentially Buildable</td>
+      <td>Site access, API key permissions, product/plan restrictions</td>
+      <td></td>
+      <td>https://apidocs.chargebee.com/docs/api/getting-started</td>
+      <td>https://www.chargebee.com/docs/billing/2.0/ai-in-chargebee/chargebee-mcp</td>
+      <td>Partially Researched</td>
+      <td>Official vendor MCP documentation lead; manual verification pending</td>
+      <td>https://apidocs.chargebee.com/docs/api/getting-started</td>
+      <td>Vendor lead identified; unconfirmed</td>
+    </tr>
+    <tr>
+      <td>Brex</td>
+      <td>Finance &amp; Fintech</td>
+      <td></td>
+      <td>Bearer token; OAuth 2.0 for partner integrations</td>
+      <td>Eligible Brex account and admin access; developer agreement may apply</td>
+      <td>REST</td>
+      <td>Cards, transactions, expenses, reimbursements, users</td>
+      <td>Needs verification</td>
+      <td>Potentially Buildable</td>
+      <td>Account eligibility, admin permissions, API agreement, OAuth approval</td>
+      <td></td>
+      <td>https://developer.brex.com/</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>No verified MCP evidence yet; research pending</td>
+      <td>https://developer.brex.com/guides/authentication</td>
+      <td>Unverified</td>
+    </tr>
+    <tr>
+      <td>Mercury</td>
+      <td>Finance &amp; Fintech</td>
+      <td></td>
+      <td>API token; Basic Auth or Bearer token</td>
+      <td>Eligible Mercury account; account admin generates token</td>
+      <td>REST</td>
+      <td>Accounts, transactions, recipients, payments, statements</td>
+      <td>Needs verification</td>
+      <td>Potentially Buildable</td>
+      <td>Account eligibility, admin permissions, token security</td>
+      <td></td>
+      <td>https://docs.mercury.com/docs/getting-started</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>No verified MCP evidence yet; research pending</td>
+      <td>https://docs.mercury.com/docs/getting-started</td>
+      <td>Unverified</td>
+    </tr>
+    <tr>
+      <td>OpenAI</td>
+      <td>AI, Research &amp; Media</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>https://platform.openai.com/docs/api-reference/introduction</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official source URLs identified; detailed review pending</td>
+      <td>https://platform.openai.com/docs/api-reference/authentication</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Anthropic</td>
+      <td>AI, Research &amp; Media</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>https://platform.claude.com/docs/en/api/overview</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official source URLs identified; detailed review pending</td>
+      <td>https://platform.claude.com/docs/en/api/overview</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Google Gemini</td>
+      <td>AI, Research &amp; Media</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>https://ai.google.dev/gemini-api/docs</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official source URLs identified; detailed review pending</td>
+      <td>https://ai.google.dev/gemini-api/docs/api-key</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Perplexity</td>
+      <td>AI, Research &amp; Media</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>https://docs.perplexity.ai/api-reference/chat-completions</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official source URLs identified; detailed review pending</td>
+      <td>https://docs.perplexity.ai/guides/getting-started</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hugging Face</td>
+      <td>AI, Research &amp; Media</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>https://huggingface.co/docs/api-inference/index</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official source URLs identified; detailed review pending</td>
+      <td>https://huggingface.co/docs/hub/security-tokens</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Replicate</td>
+      <td>AI, Research &amp; Media</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>https://replicate.com/docs/reference/http</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official source URLs identified; detailed review pending</td>
+      <td>https://replicate.com/docs/reference/http</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ElevenLabs</td>
+      <td>AI, Research &amp; Media</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>https://elevenlabs.io/docs/api-reference/introduction</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official source URLs identified; detailed review pending</td>
+      <td>https://elevenlabs.io/docs/api-reference/authentication</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AssemblyAI</td>
+      <td>AI, Research &amp; Media</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>https://www.assemblyai.com/docs/</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official source URLs identified; detailed review pending</td>
+      <td>https://support.assemblyai.com/articles/7562135267-how-to-get-your-api-key</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Deepgram</td>
+      <td>AI, Research &amp; Media</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>https://developers.deepgram.com/reference/deepgram-api-overview</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official source URLs identified; detailed review pending</td>
+      <td>https://developers.deepgram.com/guides/fundamentals/authenticating</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tavily</td>
+      <td>AI, Research &amp; Media</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>https://docs.tavily.com/documentation/api-reference/endpoint/search</td>
+      <td></td>
+      <td>Partially Researched</td>
+      <td>Official source URLs identified; detailed review pending</td>
+      <td>https://docs.tavily.com/documentation/quickstart</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Methodology and verification standards</h2>
+<ul>
+<li>Prefer official vendor API and authentication documentation.</li>
+<li>Distinguish vendor-maintained MCP servers from community projects.</li>
+<li>Do not interpret blocked pages or missing search results as proof that an API or MCP does not exist.</li>
+<li>Access may depend on plan, region, account type, tenant settings or administrator permissions.</li>
+<li>Only report accuracy metrics after creating a valid manually labelled test set and comparing predictions against it.</li>
+</ul>
+
+<footer>Generated from the current apps_100.csv research tracker. Update the tracker and rerun this cell to refresh the report.</footer>
+</body>
+</html>

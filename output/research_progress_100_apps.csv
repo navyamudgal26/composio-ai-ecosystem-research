@@ -1,0 +1,101 @@
+Application,Category,Description,Authentication_Methods,Access_Model,API_Type,API_Capabilities,Existing_MCP,Buildability_Verdict,Blockers,Official_Website,API_Documentation_URL,MCP_Evidence_URL,Research_Status,Verification_Status,Completed_Fields,Research_Progress_%
+Salesforce,CRM & Sales,,OAuth 2.0,Needs verification,REST API,CRM data and records integration; verify specific endpoints and permissions,Needs verification,Preliminary - likely buildable,"OAuth setup, app permissions, API access and automated documentation fetch blocked",,,,Not Started,Partially verified,6,85.7
+HubSpot,CRM & Sales,"CRM platform for managing contacts, companies, deals, sales and marketing activities.",OAuth 2.0; Private App Access Tokens,Self-serve options; account and permission requirements apply,REST API,"CRM records, contacts, companies, deals, tickets, marketing and CMS APIs",Yes - Official HubSpot Remote MCP Server,Buildable - API and official MCP available,"OAuth setup, scopes, account permissions, API limits and sensitive-data restrictions",https://www.hubspot.com/,https://developers.hubspot.com/docs/api/overview,https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server,Researched,Official documentation reviewed,7,100.0
+Pipedrive,CRM & Sales,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Zoho CRM,CRM & Sales,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Close,CRM & Sales,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Freshsales,CRM & Sales,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Copper,CRM & Sales,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Attio,CRM & Sales,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Insightly,CRM & Sales,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Nimble,CRM & Sales,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Zendesk,Customer Support,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Intercom,Customer Support,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Freshdesk,Customer Support,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Help Scout,Customer Support,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Gorgias,Customer Support,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Front,Customer Support,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Kustomer,Customer Support,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Jira Service Management,Customer Support,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+ServiceNow,Customer Support,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Salesforce Service Cloud,Customer Support,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Slack,Communications & Messaging,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Microsoft Teams,Communications & Messaging,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Discord,Communications & Messaging,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Telegram,Communications & Messaging,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+WhatsApp Business Cloud,Communications & Messaging,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Twilio,Communications & Messaging,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Zoom,Communications & Messaging,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Google Chat,Communications & Messaging,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Mattermost,Communications & Messaging,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Vonage,Communications & Messaging,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Mailchimp,Marketing & Advertising,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Klaviyo,Marketing & Advertising,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+SendGrid,Marketing & Advertising,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+ActiveCampaign,Marketing & Advertising,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Brevo,Marketing & Advertising,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Customer.io,Marketing & Advertising,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Campaign Monitor,Marketing & Advertising,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Meta Ads,Marketing & Advertising,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Google Ads,Marketing & Advertising,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+LinkedIn Marketing,Marketing & Advertising,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Shopify,E-commerce,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+WooCommerce,E-commerce,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+BigCommerce,E-commerce,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Adobe Commerce,E-commerce,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Square,E-commerce,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Etsy,E-commerce,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+eBay,E-commerce,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Amazon Seller Central,E-commerce,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Wix Stores,E-commerce,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+commercetools,E-commerce,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Semrush,"Data, SEO & Scraping",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Ahrefs,"Data, SEO & Scraping",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Moz,"Data, SEO & Scraping",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Similarweb,"Data, SEO & Scraping",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+SerpApi,"Data, SEO & Scraping",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Apify,"Data, SEO & Scraping",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Bright Data,"Data, SEO & Scraping",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+ScrapingBee,"Data, SEO & Scraping",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Firecrawl,"Data, SEO & Scraping",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+DataForSEO,"Data, SEO & Scraping",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+GitHub,"Developer, Infrastructure & Data",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+GitLab,"Developer, Infrastructure & Data",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Bitbucket,"Developer, Infrastructure & Data",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Jira,"Developer, Infrastructure & Data",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Linear,"Developer, Infrastructure & Data",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Vercel,"Developer, Infrastructure & Data",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Netlify,"Developer, Infrastructure & Data",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+AWS,"Developer, Infrastructure & Data",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Google Cloud,"Developer, Infrastructure & Data",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Supabase,"Developer, Infrastructure & Data",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Notion,Productivity & Project Management,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Asana,Productivity & Project Management,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Trello,Productivity & Project Management,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+ClickUp,Productivity & Project Management,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Monday.com,Productivity & Project Management,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Airtable,Productivity & Project Management,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Google Drive,Productivity & Project Management,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Dropbox,Productivity & Project Management,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+OneDrive,Productivity & Project Management,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Todoist,Productivity & Project Management,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+QuickBooks,Finance & Fintech,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Xero,Finance & Fintech,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+FreshBooks,Finance & Fintech,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Plaid,Finance & Fintech,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Wise,Finance & Fintech,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+PayPal,Finance & Fintech,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Razorpay,Finance & Fintech,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Chargebee,Finance & Fintech,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Brex,Finance & Fintech,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Mercury,Finance & Fintech,,,,,,,,,,,,Not Started,Not Verified,0,0.0
+OpenAI,"AI, Research & Media",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Anthropic,"AI, Research & Media",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Google Gemini,"AI, Research & Media",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Perplexity,"AI, Research & Media",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Hugging Face,"AI, Research & Media",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Replicate,"AI, Research & Media",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+ElevenLabs,"AI, Research & Media",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+AssemblyAI,"AI, Research & Media",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Deepgram,"AI, Research & Media",,,,,,,,,,,,Not Started,Not Verified,0,0.0
+Tavily,"AI, Research & Media",,,,,,,,,,,,Not Started,Not Verified,0,0.0

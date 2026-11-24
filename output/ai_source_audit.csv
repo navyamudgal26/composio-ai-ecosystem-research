@@ -1,0 +1,21 @@
+Application,Source_Type,URL,HTTP_Status,Page_Title,Fetch_Result
+OpenAI,API,https://platform.openai.com/docs/api-reference/introduction,200,API Overview | OpenAI API Reference,Accessible
+OpenAI,Auth,https://platform.openai.com/docs/api-reference/authentication,200,API Overview | OpenAI API Reference,Accessible
+Anthropic,API,https://platform.claude.com/docs/en/api/overview,200,API overview - Claude Platform Docs,Accessible
+Anthropic,Auth,https://platform.claude.com/docs/en/api/overview,200,API overview - Claude Platform Docs,Accessible
+Google Gemini,API,https://ai.google.dev/gemini-api/docs,200,Docs - Gemini API | Google AI Studio,Accessible
+Google Gemini,Auth,https://ai.google.dev/gemini-api/docs/api-key,200,Using Gemini API keys - Gemini API | Google AI Studio,Accessible
+Perplexity,API,https://docs.perplexity.ai/api-reference/chat-completions,200,Migrate from Sonar to the Agent API - Perplexity,Accessible
+Perplexity,Auth,https://docs.perplexity.ai/guides/getting-started,200,Overview - Perplexity,Accessible
+Hugging Face,API,https://huggingface.co/docs/api-inference/index,200,Inference Providers · Hugging Face,Accessible
+Hugging Face,Auth,https://huggingface.co/docs/hub/security-tokens,200,User access tokens · Hugging Face,Accessible
+Replicate,API,https://replicate.com/docs/reference/http,200,HTTP API - Replicate,Accessible
+Replicate,Auth,https://replicate.com/docs/reference/http,200,HTTP API - Replicate,Accessible
+ElevenLabs,API,https://elevenlabs.io/docs/api-reference/introduction,200,Introduction | ElevenLabs Documentation,Accessible
+ElevenLabs,Auth,https://elevenlabs.io/docs/api-reference/authentication,200,API Authentication | ElevenLabs Documentation,Accessible
+AssemblyAI,API,https://www.assemblyai.com/docs/,200,AssemblyAI Documentation,Accessible
+AssemblyAI,Auth,https://support.assemblyai.com/articles/7562135267-how-to-get-your-api-key,200,How to an get AssemblyAI API Key | AssemblyAI Frequently Asked Questions,Accessible
+Deepgram,API,https://developers.deepgram.com/reference/deepgram-api-overview,200,Deepgram API overview | Deepgram docs,Accessible
+Deepgram,Auth,https://developers.deepgram.com/guides/fundamentals/authenticating,200,Authenticating | Deepgram docs,Accessible
+Tavily,API,https://docs.tavily.com/documentation/api-reference/endpoint/search,200,Tavily Search - Tavily Docs,Accessible
+Tavily,Auth,https://docs.tavily.com/documentation/quickstart,200,Connect your AI agent to the web - Tavily Docs,Accessible

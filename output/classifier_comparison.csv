@@ -1,0 +1,15 @@
+Application,Feature,Fetch_Status,Automated_Prediction,Interpretation,Initial_Prediction
+Salesforce,OAuth,403,Unable to Assess,Source could not be fetched,Not Available
+Salesforce,API Key,403,Unable to Assess,Source could not be fetched,Not Available
+Salesforce,Access Token,403,Unable to Assess,Source could not be fetched,Not Available
+Salesforce,REST API,403,Unable to Assess,Source could not be fetched,Not Available
+Salesforce,GraphQL,403,Unable to Assess,Source could not be fetched,Not Available
+Salesforce,Webhooks,403,Unable to Assess,Source could not be fetched,Not Available
+Salesforce,MCP,403,Unable to Assess,Source could not be fetched,Not Available
+HubSpot,OAuth,200,Not Detected,No keyword found; absence not established,Not Available
+HubSpot,API Key,200,Not Detected,No keyword found; absence not established,Not Available
+HubSpot,Access Token,200,Not Detected,No keyword found; absence not established,Not Available
+HubSpot,REST API,200,Not Detected,No keyword found; absence not established,Not Available
+HubSpot,GraphQL,200,Not Detected,No keyword found; absence not established,Not Available
+HubSpot,Webhooks,200,Not Detected,No keyword found; absence not established,Not Available
+HubSpot,MCP,200,Not Detected,No keyword found; absence not established,Not Available

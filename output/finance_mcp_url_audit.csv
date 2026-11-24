@@ -1,0 +1,11 @@
+Application,Research_Lead,URL,HTTP_Status,Final_URL,URL_Accessible,Ownership_Verification
+QuickBooks,Official MCP reported,https://github.com/intuit/quickbooks-online-mcp-server,200,https://github.com/intuit/quickbooks-online-mcp-server,True,Manual verification required
+Xero,Official MCP reported,https://github.com/XeroAPI/xero-mcp-server,200,https://github.com/XeroAPI/xero-mcp-server,True,Manual verification required
+FreshBooks,Official MCP reported,https://mcp.freshbooks.com/v1,401,https://mcp.freshbooks.com/v1,False,Manual verification required
+Plaid,Official MCP reported,https://plaid.com/docs/,200,https://plaid.com/docs/,True,Manual verification required
+Wise,Community MCP reported,https://docs.wise.com/api-reference,200,https://docs.wise.com/api-reference,True,Manual verification required
+PayPal,Official MCP reported,https://mcp.paypal.com/mcp,401,https://mcp.paypal.com/mcp,False,Manual verification required
+Razorpay,Official MCP reported,https://github.com/razorpay/razorpay-mcp-server,200,https://github.com/razorpay/razorpay-mcp-server,True,Manual verification required
+Chargebee,Official MCP reported,https://www.chargebee.com/docs/,200,https://www.chargebee.com/docs/,True,Manual verification required
+Brex,Official MCP reported,https://api.brex.com/mcp,401,https://api.brex.com/mcp,False,Manual verification required
+Mercury,Official MCP reported,https://mcp.mercury.com/mcp,401,https://mcp.mercury.com/mcp,False,Manual verification required

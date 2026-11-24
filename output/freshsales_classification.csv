@@ -1,0 +1,17 @@
+Application,Source_Type,Feature,Automated_Prediction,Matched_Keywords
+Freshsales,API Documentation,OAuth 2.0,Not Detected,
+Freshsales,API Documentation,API Key,Not Detected,
+Freshsales,API Documentation,Access Token,Not Detected,
+Freshsales,API Documentation,Refresh Token,Not Detected,
+Freshsales,API Documentation,REST API,Not Detected,
+Freshsales,API Documentation,GraphQL,Not Detected,
+Freshsales,API Documentation,Webhooks,Not Detected,
+Freshsales,API Documentation,MCP,Not Detected,
+Freshsales,OAuth Documentation,OAuth 2.0,Signal Detected,oauth
+Freshsales,OAuth Documentation,API Key,Signal Detected,api key
+Freshsales,OAuth Documentation,Access Token,Signal Detected,access token
+Freshsales,OAuth Documentation,Refresh Token,Not Detected,
+Freshsales,OAuth Documentation,REST API,Signal Detected,rest api
+Freshsales,OAuth Documentation,GraphQL,Not Detected,
+Freshsales,OAuth Documentation,Webhooks,Not Detected,
+Freshsales,OAuth Documentation,MCP,Not Detected,

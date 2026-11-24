@@ -1,0 +1,101 @@
+Application,Category,Authentication_Methods_Missing,Access_Model_Missing,API_Type_Missing,API_Capabilities_Missing,Existing_MCP_Missing,Buildability_Verdict_Missing,API_Documentation_URL_Missing,Missing_Field_Count,Research_Priority
+Salesforce,CRM & Sales,False,False,False,False,False,False,True,1,Low
+HubSpot,CRM & Sales,False,False,False,False,False,False,False,0,Low
+Pipedrive,CRM & Sales,True,True,True,True,True,True,True,7,High
+Zoho CRM,CRM & Sales,True,True,True,True,True,True,True,7,High
+Close,CRM & Sales,True,True,True,True,True,True,True,7,High
+Freshsales,CRM & Sales,True,True,True,True,True,True,True,7,High
+Copper,CRM & Sales,True,True,True,True,True,True,True,7,High
+Attio,CRM & Sales,True,True,True,True,True,True,True,7,High
+Insightly,CRM & Sales,True,True,True,True,True,True,True,7,High
+Nimble,CRM & Sales,True,True,True,True,True,True,True,7,High
+Zendesk,Customer Support,True,True,True,True,True,True,True,7,High
+Intercom,Customer Support,True,True,True,True,True,True,True,7,High
+Freshdesk,Customer Support,True,True,True,True,True,True,True,7,High
+Help Scout,Customer Support,True,True,True,True,True,True,True,7,High
+Gorgias,Customer Support,True,True,True,True,True,True,True,7,High
+Front,Customer Support,True,True,True,True,True,True,True,7,High
+Kustomer,Customer Support,True,True,True,True,True,True,True,7,High
+Jira Service Management,Customer Support,True,True,True,True,True,True,True,7,High
+ServiceNow,Customer Support,True,True,True,True,True,True,True,7,High
+Salesforce Service Cloud,Customer Support,True,True,True,True,True,True,True,7,High
+Slack,Communications & Messaging,True,True,True,True,True,True,True,7,High
+Microsoft Teams,Communications & Messaging,True,True,True,True,True,True,True,7,High
+Discord,Communications & Messaging,True,True,True,True,True,True,True,7,High
+Telegram,Communications & Messaging,True,True,True,True,True,True,True,7,High
+WhatsApp Business Cloud,Communications & Messaging,True,True,True,True,True,True,True,7,High
+Twilio,Communications & Messaging,True,True,True,True,True,True,True,7,High
+Zoom,Communications & Messaging,True,True,True,True,True,True,True,7,High
+Google Chat,Communications & Messaging,True,True,True,True,True,True,True,7,High
+Mattermost,Communications & Messaging,True,True,True,True,True,True,True,7,High
+Vonage,Communications & Messaging,True,True,True,True,True,True,True,7,High
+Mailchimp,Marketing & Advertising,True,True,True,True,True,True,True,7,High
+Klaviyo,Marketing & Advertising,True,True,True,True,True,True,True,7,High
+SendGrid,Marketing & Advertising,True,True,True,True,True,True,True,7,High
+ActiveCampaign,Marketing & Advertising,True,True,True,True,True,True,True,7,High
+Brevo,Marketing & Advertising,True,True,True,True,True,True,True,7,High
+Customer.io,Marketing & Advertising,True,True,True,True,True,True,True,7,High
+Campaign Monitor,Marketing & Advertising,True,True,True,True,True,True,True,7,High
+Meta Ads,Marketing & Advertising,True,True,True,True,True,True,True,7,High
+Google Ads,Marketing & Advertising,True,True,True,True,True,True,True,7,High
+LinkedIn Marketing,Marketing & Advertising,True,True,True,True,True,True,True,7,High
+Shopify,E-commerce,True,True,True,True,True,True,True,7,High
+WooCommerce,E-commerce,True,True,True,True,True,True,True,7,High
+BigCommerce,E-commerce,True,True,True,True,True,True,True,7,High
+Adobe Commerce,E-commerce,True,True,True,True,True,True,True,7,High
+Square,E-commerce,True,True,True,True,True,True,True,7,High
+Etsy,E-commerce,True,True,True,True,True,True,True,7,High
+eBay,E-commerce,True,True,True,True,True,True,True,7,High
+Amazon Seller Central,E-commerce,True,True,True,True,True,True,True,7,High
+Wix Stores,E-commerce,True,True,True,True,True,True,True,7,High
+commercetools,E-commerce,True,True,True,True,True,True,True,7,High
+Semrush,"Data, SEO & Scraping",True,True,True,True,True,True,True,7,High
+Ahrefs,"Data, SEO & Scraping",True,True,True,True,True,True,True,7,High
+Moz,"Data, SEO & Scraping",True,True,True,True,True,True,True,7,High
+Similarweb,"Data, SEO & Scraping",True,True,True,True,True,True,True,7,High
+SerpApi,"Data, SEO & Scraping",True,True,True,True,True,True,True,7,High
+Apify,"Data, SEO & Scraping",True,True,True,True,True,True,True,7,High
+Bright Data,"Data, SEO & Scraping",True,True,True,True,True,True,True,7,High
+ScrapingBee,"Data, SEO & Scraping",True,True,True,True,True,True,True,7,High
+Firecrawl,"Data, SEO & Scraping",True,True,True,True,True,True,True,7,High
+DataForSEO,"Data, SEO & Scraping",True,True,True,True,True,True,True,7,High
+GitHub,"Developer, Infrastructure & Data",True,True,True,True,True,True,True,7,High
+GitLab,"Developer, Infrastructure & Data",True,True,True,True,True,True,True,7,High
+Bitbucket,"Developer, Infrastructure & Data",True,True,True,True,True,True,True,7,High
+Jira,"Developer, Infrastructure & Data",True,True,True,True,True,True,True,7,High
+Linear,"Developer, Infrastructure & Data",True,True,True,True,True,True,True,7,High
+Vercel,"Developer, Infrastructure & Data",True,True,True,True,True,True,True,7,High
+Netlify,"Developer, Infrastructure & Data",True,True,True,True,True,True,True,7,High
+AWS,"Developer, Infrastructure & Data",True,True,True,True,True,True,True,7,High
+Google Cloud,"Developer, Infrastructure & Data",True,True,True,True,True,True,True,7,High
+Supabase,"Developer, Infrastructure & Data",True,True,True,True,True,True,True,7,High
+Notion,Productivity & Project Management,True,True,True,True,True,True,True,7,High
+Asana,Productivity & Project Management,True,True,True,True,True,True,True,7,High
+Trello,Productivity & Project Management,True,True,True,True,True,True,True,7,High
+ClickUp,Productivity & Project Management,True,True,True,True,True,True,True,7,High
+Monday.com,Productivity & Project Management,True,True,True,True,True,True,True,7,High
+Airtable,Productivity & Project Management,True,True,True,True,True,True,True,7,High
+Google Drive,Productivity & Project Management,True,True,True,True,True,True,True,7,High
+Dropbox,Productivity & Project Management,True,True,True,True,True,True,True,7,High
+OneDrive,Productivity & Project Management,True,True,True,True,True,True,True,7,High
+Todoist,Productivity & Project Management,True,True,True,True,True,True,True,7,High
+QuickBooks,Finance & Fintech,True,True,True,True,True,True,True,7,High
+Xero,Finance & Fintech,True,True,True,True,True,True,True,7,High
+FreshBooks,Finance & Fintech,True,True,True,True,True,True,True,7,High
+Plaid,Finance & Fintech,True,True,True,True,True,True,True,7,High
+Wise,Finance & Fintech,True,True,True,True,True,True,True,7,High
+PayPal,Finance & Fintech,True,True,True,True,True,True,True,7,High
+Razorpay,Finance & Fintech,True,True,True,True,True,True,True,7,High
+Chargebee,Finance & Fintech,True,True,True,True,True,True,True,7,High
+Brex,Finance & Fintech,True,True,True,True,True,True,True,7,High
+Mercury,Finance & Fintech,True,True,True,True,True,True,True,7,High
+OpenAI,"AI, Research & Media",True,True,True,True,True,True,True,7,High
+Anthropic,"AI, Research & Media",True,True,True,True,True,True,True,7,High
+Google Gemini,"AI, Research & Media",True,True,True,True,True,True,True,7,High
+Perplexity,"AI, Research & Media",True,True,True,True,True,True,True,7,High
+Hugging Face,"AI, Research & Media",True,True,True,True,True,True,True,7,High
+Replicate,"AI, Research & Media",True,True,True,True,True,True,True,7,High
+ElevenLabs,"AI, Research & Media",True,True,True,True,True,True,True,7,High
+AssemblyAI,"AI, Research & Media",True,True,True,True,True,True,True,7,High
+Deepgram,"AI, Research & Media",True,True,True,True,True,True,True,7,High
+Tavily,"AI, Research & Media",True,True,True,True,True,True,True,7,High

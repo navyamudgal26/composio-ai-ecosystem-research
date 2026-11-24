@@ -1,0 +1,15 @@
+Application,Feature,Automated_Prediction,Manual_Verification,Evidence_URL,Reviewer_Notes,Result
+Salesforce,OAuth,No,Yes,https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html,OAuth 2.0 documented,Incorrect
+Salesforce,API Key,No,Unclear,,Needs further verification,Unclear
+Salesforce,Access Token,No,Yes,https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html,Access token documented,Incorrect
+Salesforce,REST API,No,Yes,https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest.html,REST API documented,Incorrect
+Salesforce,GraphQL,No,Yes,https://developer.salesforce.com/docs/platform/graphql/guide/authorization.html,GraphQL authorization documented,Incorrect
+Salesforce,Webhooks,No,Unclear,,Needs further verification,Unclear
+Salesforce,MCP,No,Unclear,,Needs further verification,Unclear
+HubSpot,OAuth,No,Yes,https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server,OAuth documented for MCP,Incorrect
+HubSpot,API Key,No,Unclear,,Needs further verification,Unclear
+HubSpot,Access Token,No,Yes,https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server,Access tokens documented,Incorrect
+HubSpot,REST API,No,Yes,https://developers.hubspot.com/docs/api/overview,REST API documented,Incorrect
+HubSpot,GraphQL,No,Unclear,,Needs further verification,Unclear
+HubSpot,Webhooks,No,Unclear,,Needs further verification,Unclear
+HubSpot,MCP,No,Yes,https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server,Official Remote MCP documented,Incorrect

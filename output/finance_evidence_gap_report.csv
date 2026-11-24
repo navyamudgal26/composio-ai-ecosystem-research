@@ -1,0 +1,11 @@
+Application,Fields_Filled,Fields_Pending,Completion_Percent,Pending_Fields
+QuickBooks,8,3,73,"Description, Existing_MCP, MCP_Evidence_URL"
+Xero,8,3,73,"Description, Existing_MCP, MCP_Evidence_URL"
+FreshBooks,8,3,73,"Description, Existing_MCP, MCP_Evidence_URL"
+Plaid,8,3,73,"Description, Existing_MCP, MCP_Evidence_URL"
+Wise,8,3,73,"Description, Existing_MCP, MCP_Evidence_URL"
+PayPal,9,2,82,"Description, Existing_MCP"
+Razorpay,9,2,82,"Description, Existing_MCP"
+Chargebee,9,2,82,"Description, Existing_MCP"
+Brex,8,3,73,"Description, Existing_MCP, MCP_Evidence_URL"
+Mercury,8,3,73,"Description, Existing_MCP, MCP_Evidence_URL"

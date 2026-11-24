@@ -1,0 +1,15 @@
+Application,Feature,Automated_Prediction,Fetch_Status,Evidence_Source,Interpretation
+Salesforce,OAuth,Unable to Assess,403,https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html,Source could not be fetched
+Salesforce,API Key,Unable to Assess,403,https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html,Source could not be fetched
+Salesforce,Access Token,Unable to Assess,403,https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html,Source could not be fetched
+Salesforce,REST API,Unable to Assess,403,https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html,Source could not be fetched
+Salesforce,GraphQL,Unable to Assess,403,https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html,Source could not be fetched
+Salesforce,Webhooks,Unable to Assess,403,https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html,Source could not be fetched
+Salesforce,MCP,Unable to Assess,403,https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html,Source could not be fetched
+HubSpot,OAuth,Not Detected,200,https://developers.hubspot.com/blog/harnessing-the-power-of-hubspots-public-apis-with-postman,No keyword found; absence not established
+HubSpot,API Key,Not Detected,200,https://developers.hubspot.com/blog/harnessing-the-power-of-hubspots-public-apis-with-postman,No keyword found; absence not established
+HubSpot,Access Token,Not Detected,200,https://developers.hubspot.com/blog/harnessing-the-power-of-hubspots-public-apis-with-postman,No keyword found; absence not established
+HubSpot,REST API,Not Detected,200,https://developers.hubspot.com/blog/harnessing-the-power-of-hubspots-public-apis-with-postman,No keyword found; absence not established
+HubSpot,GraphQL,Not Detected,200,https://developers.hubspot.com/blog/harnessing-the-power-of-hubspots-public-apis-with-postman,No keyword found; absence not established
+HubSpot,Webhooks,Not Detected,200,https://developers.hubspot.com/blog/harnessing-the-power-of-hubspots-public-apis-with-postman,No keyword found; absence not established
+HubSpot,MCP,Not Detected,200,https://developers.hubspot.com/blog/harnessing-the-power-of-hubspots-public-apis-with-postman,No keyword found; absence not established

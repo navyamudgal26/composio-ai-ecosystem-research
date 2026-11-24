@@ -1,0 +1,2 @@
+Application,Authentication_Methods,Access_Model,API_Type,API_Capabilities,Existing_MCP,Buildability_Verdict,Blockers,Evidence_URL,Verification_Status
+Salesforce,OAuth 2.0,Needs verification,REST API,CRM data and records integration; verify specific endpoints and permissions,Needs verification,Preliminary - likely buildable,"OAuth setup, app permissions, API access and automated documentation fetch blocked",https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html,Partially verified

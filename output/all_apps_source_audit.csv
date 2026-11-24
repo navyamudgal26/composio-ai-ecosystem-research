@@ -1,0 +1,51 @@
+Application,Category,Source_Type,URL,HTTP_Status,Accessible,Verification
+HubSpot,CRM & Sales,API,https://developers.hubspot.com/docs/api/overview,200,True,Manual review required
+HubSpot,CRM & Sales,MCP,https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server,200,True,Manual review required
+Pipedrive,CRM & Sales,API,https://developers.pipedrive.com/docs/api/v1,200,True,Manual review required
+Zoho CRM,CRM & Sales,API,https://www.zoho.com/crm/developer/docs/api/v8/,200,True,Manual review required
+Close,CRM & Sales,API,https://developer.close.com/api/overview,200,True,Manual review required
+Close,CRM & Sales,MCP,https://developer.close.com/mcp/,200,True,Manual review required
+Freshsales,CRM & Sales,API,https://developers.freshworks.com/crm/api/,200,True,Manual review required
+QuickBooks,Finance & Fintech,API,https://developer.intuit.com/app/developer/qbo/docs/,200,True,Manual review required
+QuickBooks,Finance & Fintech,Authentication,https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization,200,True,Manual review required
+Xero,Finance & Fintech,API,https://developer.xero.com/documentation/api/accounting/overview,200,True,Manual review required
+Xero,Finance & Fintech,Authentication,https://developer.xero.com/documentation/guides/oauth2/overview,200,True,Manual review required
+FreshBooks,Finance & Fintech,API,https://www.freshbooks.com/api/start/,200,True,Manual review required
+FreshBooks,Finance & Fintech,Authentication,https://www.freshbooks.com/api/start/,200,True,Manual review required
+Plaid,Finance & Fintech,API,https://plaid.com/docs/api/,200,True,Manual review required
+Plaid,Finance & Fintech,Authentication,https://plaid.com/docs/quickstart/,200,True,Manual review required
+Wise,Finance & Fintech,API,https://docs.wise.com/api-reference,200,True,Manual review required
+Wise,Finance & Fintech,Authentication,https://docs.wise.com/api-reference,200,True,Manual review required
+PayPal,Finance & Fintech,API,https://developer.paypal.com/api/rest/,200,True,Manual review required
+PayPal,Finance & Fintech,Authentication,https://developer.paypal.com/api/rest/authentication,200,True,Manual review required
+PayPal,Finance & Fintech,MCP,https://developer.paypal.com/ai-tools/mcp-server,200,True,Manual review required
+Razorpay,Finance & Fintech,API,https://razorpay.com/docs/api/,200,True,Manual review required
+Razorpay,Finance & Fintech,Authentication,https://razorpay.com/docs/api/authentication/,200,True,Manual review required
+Razorpay,Finance & Fintech,MCP,https://github.com/razorpay/razorpay-mcp-server,200,True,Manual review required
+Chargebee,Finance & Fintech,API,https://apidocs.chargebee.com/docs/api/getting-started,200,True,Manual review required
+Chargebee,Finance & Fintech,Authentication,https://apidocs.chargebee.com/docs/api/getting-started,200,True,Manual review required
+Chargebee,Finance & Fintech,MCP,https://www.chargebee.com/docs/billing/2.0/ai-in-chargebee/chargebee-mcp,200,True,Manual review required
+Brex,Finance & Fintech,API,https://developer.brex.com/,200,True,Manual review required
+Brex,Finance & Fintech,Authentication,https://developer.brex.com/guides/authentication,200,True,Manual review required
+Mercury,Finance & Fintech,API,https://docs.mercury.com/docs/getting-started,200,True,Manual review required
+Mercury,Finance & Fintech,Authentication,https://docs.mercury.com/docs/getting-started,200,True,Manual review required
+OpenAI,"AI, Research & Media",API,https://platform.openai.com/docs/api-reference/introduction,200,True,Manual review required
+OpenAI,"AI, Research & Media",Authentication,https://platform.openai.com/docs/api-reference/authentication,200,True,Manual review required
+Anthropic,"AI, Research & Media",API,https://platform.claude.com/docs/en/api/overview,200,True,Manual review required
+Anthropic,"AI, Research & Media",Authentication,https://platform.claude.com/docs/en/api/overview,200,True,Manual review required
+Google Gemini,"AI, Research & Media",API,https://ai.google.dev/gemini-api/docs,200,True,Manual review required
+Google Gemini,"AI, Research & Media",Authentication,https://ai.google.dev/gemini-api/docs/api-key,200,True,Manual review required
+Perplexity,"AI, Research & Media",API,https://docs.perplexity.ai/api-reference/chat-completions,200,True,Manual review required
+Perplexity,"AI, Research & Media",Authentication,https://docs.perplexity.ai/guides/getting-started,200,True,Manual review required
+Hugging Face,"AI, Research & Media",API,https://huggingface.co/docs/api-inference/index,200,True,Manual review required
+Hugging Face,"AI, Research & Media",Authentication,https://huggingface.co/docs/hub/security-tokens,200,True,Manual review required
+Replicate,"AI, Research & Media",API,https://replicate.com/docs/reference/http,200,True,Manual review required
+Replicate,"AI, Research & Media",Authentication,https://replicate.com/docs/reference/http,200,True,Manual review required
+ElevenLabs,"AI, Research & Media",API,https://elevenlabs.io/docs/api-reference/introduction,200,True,Manual review required
+ElevenLabs,"AI, Research & Media",Authentication,https://elevenlabs.io/docs/api-reference/authentication,200,True,Manual review required
+AssemblyAI,"AI, Research & Media",API,https://www.assemblyai.com/docs/,200,True,Manual review required
+AssemblyAI,"AI, Research & Media",Authentication,https://support.assemblyai.com/articles/7562135267-how-to-get-your-api-key,200,True,Manual review required
+Deepgram,"AI, Research & Media",API,https://developers.deepgram.com/reference/deepgram-api-overview,200,True,Manual review required
+Deepgram,"AI, Research & Media",Authentication,https://developers.deepgram.com/guides/fundamentals/authenticating,200,True,Manual review required
+Tavily,"AI, Research & Media",API,https://docs.tavily.com/documentation/api-reference/endpoint/search,200,True,Manual review required
+Tavily,"AI, Research & Media",Authentication,https://docs.tavily.com/documentation/quickstart,200,True,Manual review required

@@ -1,0 +1,11 @@
+Application,MCP_Research_Lead,Evidence_URL,Verification_Note
+QuickBooks,Official MCP reported,https://github.com/intuit/quickbooks-online-mcp-server,Vendor GitHub repository; verify directly
+Xero,Official MCP reported,https://github.com/XeroAPI/xero-mcp-server,Vendor repository needs direct verification
+FreshBooks,Official MCP reported,https://mcp.freshbooks.com/v1,Remote endpoint reported; vendor documentation needs verification
+Plaid,Official MCP reported,https://plaid.com/docs/,MCP claim needs vendor confirmation
+Wise,Community MCP reported,https://docs.wise.com/api-reference,No official MCP evidence confirmed
+PayPal,Official MCP reported,https://mcp.paypal.com/mcp,Remote endpoint reported; verify vendor docs
+Razorpay,Official MCP reported,https://github.com/razorpay/razorpay-mcp-server,Vendor repository
+Chargebee,Official MCP reported,https://www.chargebee.com/docs/,Vendor MCP documentation reported
+Brex,Official MCP reported,https://api.brex.com/mcp,Remote endpoint reported; verify vendor docs
+Mercury,Official MCP reported,https://mcp.mercury.com/mcp,Remote endpoint reported; verify vendor docs
